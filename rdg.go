@@ -1,4 +1,4 @@
-package usefulThings
+package main
 
 import (
 	"time"
