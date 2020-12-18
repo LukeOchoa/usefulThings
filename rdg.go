@@ -1,4 +1,4 @@
-package rdg
+package usefulThings
 
 func NewInt32() int32 {
         rand.Seed(time.Now().UnixNano())
