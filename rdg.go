@@ -1,5 +1,10 @@
 package usefulThings
 
+import (
+	"time"
+	"math/rand"
+)
+
 func NewInt32() int32 {
         rand.Seed(time.Now().UnixNano())
         value := rand.Int31n(2147483647)
